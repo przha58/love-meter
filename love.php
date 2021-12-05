@@ -174,7 +174,7 @@ if(isset($_POST['submit'])){
  }
 else{
 
-    $rand=rand(40,100);
+    $rand=rand(0,100);
    
     echo "result : " .$rand."%";
 $filename="ln.txt";
